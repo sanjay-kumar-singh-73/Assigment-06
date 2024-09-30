@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color:rgb(185, 173, 197);
+}
+
+/* ==========================Header Style======================== */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header .logo i{
+    font-size: 24px;
+    color: #fff;
+    width: 37px;
+    height: 64px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+header .logo h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 29px;
+    padding-left: 10px;
+}
+
+header nav{
+    width: 383px;
+    height: 30px;
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    margin-right: -500px;
+    margin-bottom: 10px;
+}
+
+header nav li a{
+    font-weight: 500;
+    font-size: 16px;
+    color:#ffffff;
+    line-height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+header .icon{
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+    margin-top: 29px;
+}
+
+header .icon .ellips{
+    border-radius: 50%;
+    background-color: #ff2b77;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+header .icon .ellips h2{
+    font-size: 8px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4px;
+    color: #ffffff;
+}
+
+header .icon .shop{
+    margin-top: -4px;
+}
+
+header .icon  .shop a i{
+   text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  /* padding-bottom: 20px; */
+}
+
+/* =============================Home-Page-Style============================================= */
+
+.home-page .main-home{
+    display: flex;
+    gap: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+.home-page .right{
+    width: 500px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+.home-page .right h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.home-page .right h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.home-page .right p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #31546d;
+    width: 70%;
+}
+
+.home-page .right .button{
+    display: flex;
+    gap: 12px;
+}
+
+.home-page .right .button .btn{
+    width: 180px;
+    height: 56px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.home-page .right .button #btn{
+    background-color:transparent;
+    cursor: pointer;
+}
+
+.home-page .left .main .image img{
+   width: 250px;
+   height: 250px;
+}
+
+.home-page .left .main{
+    background-color: #fff;
+    width: 359px;
+    height: 354px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 370px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 60px;
+    box-shadow: 0 0 20px #a4bac5;
+}
+
+.home-page .left .main .image h2{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+ .png img{
+  padding-top: 300px;
+  width: 100%;
+  height: 100vh;
+}
+
+.png{
+    margin-top:-440px;
+    position: relative;
+}
+
+.mention{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: -500px;
+}
+
+.mention .div{
+    display: flex;
+    gap: 10px;
+    margin-left: 600px;
+    margin-top: -80px;
+    text-align: center;
+}
+.mention .div h2{
+    font-size: 20px;
+    font-weight: 500;
+    color:#307189;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.mention .mouse .li-01{
+    border: 3px solid #307189;
+    width: 25.33px;
+    height: 37.33px;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mention .mouse .li-02{
+    border: 3px solid #307189;
+    height: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+.mention .mouse .li-03 img{
+     margin-left: 610px;
+     margin-bottom:5px;
+     width: 6px;
+     height: 6px;
+}
+
+.funtion{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-top: -250px;
+    margin-right: 100px;
+}
+
+.funtion li{
+    width: 24px;
+    height: 24px;
+    background-color:rgba(138,147,229,1);
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+.funtion li a{
+    width: 24px;
+    height: 24px;
+    background-color:rgba(138,147,229,1);
+    color: #fff;
+    border-radius: 2px;
+}
+
+.funtion .cirle{
+    width: 20px;
+    height: 20px;
+    background-color:#D7DBFF;
+    border-radius: 50%;
+}
+.funtion #cirle{
+    background-color:#8A93E5;
+}
+
+/* ==========================Product Style================== */
+
+.product{
+    background-color: #fff;
+    position: relative;
+    margin-top: -10px;
+}
+
+.product h1{
+    text-align: center;
+    padding-top: 26px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product .filter{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.product .filter  h2{
+   font-size: 20px;
+   font-weight: bold;
+   color: #9AB0C0;
+}
+.product .filter  span{
+   color: #31546D;
+}
+.product .filter  span a{
+   color: #31546D;
+}
+
+.product .main-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: -80px;
+    padding: 20px;
+}
+
+
+.product .main-card .card{
+    width: 322px;
+    height: 412px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    margin: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px rgb(243, 240, 240);
+    padding-top: 10px;
+}
+
+.product .main-card .card img{
+   width: 198px;
+   height: 198px;
+}
+
+.product .main-card .card h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.product .main-card .card h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(49,113,137,1);
+    margin: 4px;
+}
+.product .main-card .card .button #btn{
+   width: 180px;
+   height: 56px;
+   border-radius: 18px;
+   border: none;
+   outline: none;
+   background-color:rgba(117,204,235,1);
+   font-size: 14px;
+   font-weight: 700;
+   color: rgba(255,255,255,1);
+}
+
+.product .main-card .card .button .btn{
+   width: 180px;
+   height: 56px;
+   border-radius: 18px;
+   border: none;
+   outline: none;
+   background-color:transparent;
+   border: 3px solid  rgba(117,204,253,1);
+   font-size: 14px;
+   font-weight: 700;
+   color: rgba(111,180,255,1);
+   margin: 10px;
+}
+
+/* =================View All Style================= */
+
+
+.view{
+    background-color:#ffffff;
+    padding-top: 100px;
+    position: relative;
+    z-index: 2;
+}
+.view .bbtn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 134px;
+   height: 48px;
+   border-radius: 18px;
+   border: 2px solid rgba(117,204,253,1);
+   margin-left: 600px;
+   margin-top: 20px;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24px;
+   color: rgba(117,204,253,1);
+}
+
+.view .main-view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.view .main-view .right{
+    width: 600px;
+    height: 444px;
+    border-radius: 18px;
+    margin-left: 160px;
+    text-align: right;
+    margin-top: 50px;
+    position: relative;
+    z-index: 0;
+}
+
+.view .main-view .right h2{
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 65px;
+    color:  rgb(52, 104, 141);
+}
+.view .main-view .right h1{
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 65px;
+    color:  rgba(49, 84, 109, 1);
+}
+.view .main-view .right .doller{
+   display: flex;
+   gap: 10px;
+   text-align: right;
+   margin-left: 290px;
+}
+
+.view .main-view .right .doller .cros{
+    margin-top: 30px;
+}
+
+.view .main-view .right .doller .cros h2{
+   text-align: right;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 30px;
+   align-items: center;
+}
+.view .main-view .right .doller .cros .cross{
+   width: 80px;
+   height: 2px;
+   background-color: rgba(49, 84, 109, 1);
+   margin-top: -15px;
+}
+.view .main-view .right .doller h1{
+ font-size: 70px;
+ font-weight: 700;
+ line-height: 90px;
+ color: rgba(227,91,62,1);
+ text-align: right;
+}
+
+.view .main-view .right p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    width: 70%;
+    margin-left: 170px;
+    color: rgba(49,84, 109,1);
+}
+
+.view .main-view .right .buttton .Buy{
+ width: 180px;
+ height: 56px;
+ border-radius: 18px;
+ background-color: rgba(117,204,235,1);
+ font-size: 16px;
+ font-weight: 700px;
+ color: rgba(255, 255, 255, 1);
+ border: none;
+ outline: none;
+ margin-top: 30px;
+ cursor: pointer;
+}
+
+
+
+
+.view .main-view .left{
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 10px rgba(120, 143, 156, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    z-index: 0;
+    position: relative;
+}
+.view .main-view .left .aik{
+    text-align:center;
+    width: 364px;
+    height: 364px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 10px rgba(120, 143, 156, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.view .main-view .left .aik .last{
+    text-align:center;
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(120, 143, 156, 0.25);
+    z-index: 0;
+}
+.view .main-view .left .aik .last img{
+  width: 248px;
+  height: 248px;
+  z-index: 00;
+}
+
+
+ .end {
+    width: 100%;
+    height: 200px;
+    background: rgba(10, 41, 77, 0.8); 
+}
